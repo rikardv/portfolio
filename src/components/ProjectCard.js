@@ -29,7 +29,7 @@ const ProjectCard = ({ color, title, inverse, children }) => {
         justifyContent: "center",
         alignItems: "center",
         height: "100%",
-        width: "100%",
+        padding: "5vw",
         backgroundColor: color,
       }}
     >

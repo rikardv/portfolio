@@ -16,7 +16,6 @@ const Footer = () => {
 const styles = {
   container: {
     display: "flex",
-    paddingBottom: "5vh",
   },
 };
 

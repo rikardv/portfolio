@@ -64,7 +64,22 @@ const _ScrollContainer = () => {
             Developed using Python and React Native
           </Typography>
           <Typography variant="body1" fontWeight="200">
-            This was a project
+            This React Native app leverages TF-IDF (Term Frequency-Inverse
+            Document Frequency) to generate concise summaries of tweets, making
+            it easier for users to quickly grasp the essence of the content.
+            Additionally, it utilizes Sentiment140 to determine the sentiment of
+            the tweets, providing valuable insights into public sentiment around
+            various topics on Twitter. With a Python backend, this app combines
+            the power of natural language processing and sentiment analysis to
+            enhance your Twitter experience. <br></br>Key Features: <br></br>
+            <ul>
+              <li>Tweet summarization using TF-IDF techniques.</li>
+              <li>Sentiment analysis of tweets using Sentiment140.</li>
+              <li>
+                React Native front-end for a user-friendly mobile experience.
+              </li>
+              <li> Python-based backend for efficient data processing.</li>
+            </ul>
           </Typography>
           <Typography
             variant="overline"
@@ -92,7 +107,48 @@ const _ScrollContainer = () => {
             Developed using React Native, Java and Raspberry Pi
           </Typography>
           <Typography variant="body1" fontWeight="200">
-            Developed using Python and React Native
+            This personal project combines the power of React Native for the
+            frontend and Java for the backend to create a sophisticated home
+            automation system. Using GPS tracking, it intelligently manages your
+            home's lighting and integrates with Hyresbostäder and Aptus door
+            locks for enhanced security. A Raspberry Pi with a 433MHz
+            transmitter serves as the bridge to control your lights, ensuring
+            they're on when you're home and off when you're away.
+            <br></br>Key Features: <br></br>
+            <ul>
+              <li>
+                React Native Frontend: A user-friendly mobile interface for
+                seamless control.
+              </li>
+              <li>
+                Java Backend: Efficiently manages the logic and communication.
+              </li>
+              <li>
+                GPS-Based Lighting Control: Lights adapt to your presence,
+                maximizing energy efficiency.
+              </li>
+              <li>
+                Syncs with Hyresbostäder and Aptus door locks for added
+                convenience.
+              </li>
+              <li>
+                Raspberry Pi Integration: A hardware component for reliable
+                lighting control.
+              </li>
+            </ul>
+          </Typography>
+          <Typography
+            variant="overline"
+            fontWeight="500"
+            component="a"
+            href={"https://github.com/rikardv"}
+            target="_blank"
+            sx={{
+              pointerEvents: "visible",
+              color: "inherit",
+            }}
+          >
+            Link to project
           </Typography>
         </ProjectCard>
       </ScrollPage>
@@ -102,10 +158,44 @@ const _ScrollContainer = () => {
             Montecarlo ray tracer <FontAwesomeIcon icon={faJava} />
           </Typography>
           <Typography variant="h6" fontWeight="500">
-            Developed using Python and React Native
+            Developed using Java
           </Typography>
           <Typography variant="body1" fontWeight="200">
-            Developed using Python and React Native
+            Developed entirely from scratch, this project leverages the power of
+            Monte Carlo methods to simulate complex light interactions,
+            rendering stunning and realistic images.
+            <br></br>Key Features: <br></br>
+            <ul>
+              <li>
+                Monte Carlo Rendering: A sophisticated technique for accurate
+                and efficient light simulation.
+              </li>
+              <li>
+                Java Implementation: Crafted entirely in Java for platform
+                independence.
+              </li>
+              <li>
+                Custom Engine: Built from the ground up, giving you full control
+                over the rendering process.
+              </li>
+              <li>
+                Realistic Images: Produce high-quality, photorealistic images
+                and scenes.
+              </li>
+            </ul>
+          </Typography>
+          <Typography
+            variant="overline"
+            fontWeight="500"
+            component="a"
+            href={"https://github.com/rikardv"}
+            target="_blank"
+            sx={{
+              pointerEvents: "visible",
+              color: "inherit",
+            }}
+          >
+            Link to project
           </Typography>
         </ProjectCard>
       </ScrollPage>

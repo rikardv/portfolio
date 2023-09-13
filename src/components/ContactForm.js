@@ -27,9 +27,11 @@ const ContactForm = () => {
       id="myForm"
     >
       <ThanksDialog open={openConfirmation} handleClose={handleClose} />
-      <Typography variant="h3" fontWeight="600">
-        Get in touch
-      </Typography>
+      <Box style={styles.field}>
+        <Typography variant="h3" fontWeight="600">
+          Get in touch
+        </Typography>
+      </Box>
 
       <Box style={styles.field}>
         <Typography variant="body1" style={styles.title}>

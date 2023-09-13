@@ -5,6 +5,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fdfdfd;
   pointer-events: "none";
+  /* mobile viewport bug fix */
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
 }
 
 code {
