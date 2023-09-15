@@ -6,7 +6,7 @@ import "./Content.css";
 
 const ContentContainer = () => {
   return (
-    <Box style={styles.container} className="container">
+    <Box style={styles.container}>
       <Splash />
       <Footer />
     </Box>
@@ -16,8 +16,9 @@ const ContentContainer = () => {
 const styles = {
   container: {
     display: "flex",
+    flex: 1,
     flexDirection: "column",
-    alignItems: "center",
+    width: "100%",
   },
 };
 

@@ -1,5 +1,0 @@
-.container {
-  height: 100vh;
-  /* mobile viewport bug fix */
-  padding-bottom: calc(5em + env(safe-area-inset-bottom));
-}

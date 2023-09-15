@@ -5,7 +5,7 @@ import { Box, Typography } from "@mui/material";
 const Footer = () => {
   return (
     <Box style={styles.container}>
-      <Typography variant="body1">
+      <Typography variant="body1" color="gray">
         Scroll down to see my recent projects
       </Typography>
       {/* <FontAwesomeIcon icon={faArrowDown} bounce size="lg" color="gray" /> */}

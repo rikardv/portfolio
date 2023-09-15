@@ -1,32 +1,34 @@
 import { Typography, Box, Grid, Button, ButtonGroup } from "@mui/material";
+import logo from "../images/programmer-svgrepo-com.png";
 
 const Splash = () => {
   return (
-    <Box style={styles.container}>
-      <Grid container spacing={2} flexDirection="column">
-        <Grid item>
-          <Typography variant="h2" fontWeight="600">
-            Rikard
-          </Typography>
-          <Typography variant="h2" fontWeight="600" sx={{ padding: 0 }}>
-            Vestergaard
-          </Typography>
-          <Typography variant="h6" fontWeight="500" color={"gray"}>
-            Student & part time software developer
-          </Typography>
-        </Grid>
+    <Grid container style={styles.container}>
+      <Grid item style={styles.image}>
+        <Typography variant="h2" fontWeight="600">
+          Rikard
+        </Typography>
+        <Typography variant="h2" fontWeight="600" sx={{ padding: 0 }}>
+          Vestergaard
+        </Typography>
+        <Typography variant="h6" fontWeight="500" color={"gray"}>
+          Student & part time software developer
+        </Typography>
       </Grid>
-    </Box>
+      <Grid item style={styles.image}>
+        <img src={logo} alt="Programmer" width={150} />
+      </Grid>
+    </Grid>
   );
 };
 
 const styles = {
   container: {
     flex: 1,
-    flexDirection: "column",
-    display: "flex",
-    alignItems: "flex-start",
-    justifyContent: "center",
+    width: "100%",
+  },
+  image: {
+    marginBottom: "2vh",
   },
 };
 
