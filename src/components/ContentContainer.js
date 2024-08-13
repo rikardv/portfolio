@@ -3,12 +3,14 @@ import BasicTabs from "./BasicTabs";
 import Footer from "./Footer";
 import Splash from "./Splash";
 import "./Content.css";
+import Hero from "./Hero";
+import Perks from "./Perks/Perks";
 
 const ContentContainer = () => {
   return (
     <Box style={styles.container}>
-      <Splash />
-      <Footer />
+      <Hero />
+      <Perks />
     </Box>
   );
 };
@@ -19,6 +21,7 @@ const styles = {
     flex: 1,
     flexDirection: "column",
     width: "100%",
+    border: "1px solid green",
   },
 };
 

@@ -6,4 +6,6 @@ export const MY_COLORS = {
   lightBlue: "#64D2FF",
   blue: "#0A84FF",
   pink: "#FF374F",
+  black: "#000000",
+  gray: "#F5F5F7",
 };

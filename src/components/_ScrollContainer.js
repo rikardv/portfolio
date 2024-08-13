@@ -5,9 +5,10 @@ import {
   faRaspberryPi,
   faReact,
   faReacteurope,
+  faSwift,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Stack, Typography } from "@mui/material";
+import { Stack, Typography, Button } from "@mui/material";
 import { useEffect, useReducer } from "react";
 import {
   Animator,
@@ -32,6 +33,8 @@ import ContentContainer from "./ContentContainer";
 import ProjectCard from "./ProjectCard";
 import Splash from "./Splash";
 import Pdf from "../docs/rikard.pdf";
+import Hero from "./Hero";
+import Perks from "./Perks/Perks";
 
 const _ScrollContainer = () => {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
@@ -47,11 +50,51 @@ const _ScrollContainer = () => {
   };
 
   return (
-    <ScrollContainer style={{ pointerEvents: "none" }}>
+    <ScrollContainer>
       <ScrollPage>
-        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-          <ContentContainer />
-        </Animator>
+        <Hero />
+      </ScrollPage>
+
+      <ScrollPage>
+        <Perks />
+      </ScrollPage>
+
+      <ScrollPage>
+        <ProjectCard color={MY_COLORS.gray}>
+          <Typography variant="h2" fontWeight="500">
+            Urban Explorer Sverige <FontAwesomeIcon icon={faSwift} />+
+            <FontAwesomeIcon icon={faPython} />
+          </Typography>
+          <Typography variant="h6" fontWeight="500">
+            Developed using SwiftUI with a Python backend
+          </Typography>
+          <Typography variant="body1" fontWeight="200">
+            Discover the hidden gems of Sweden with Urban Explorer Sverige. This
+            community-based app allows users to share their favorite spots and
+            discuss with each other. Built with a modern SwiftUI interface,
+            users can easily navigate the app and find new places to explore.
+            The Python backend ensures smooth data processing and finds new
+            spots with AI.
+          </Typography>
+          {/* Download in App Store image here */}
+
+          <a
+            href="https://apps.apple.com/se/app/urban-explorer-sverige/id6547833109?itsct=apps_box_badge&amp;itscg=30200"
+            style={{
+              display: "inline-block",
+              overflow: "hidden",
+              borderRadius: "13px",
+              width: "250px",
+              height: "83px",
+            }}
+          >
+            <img
+              src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1723507200"
+              alt="Download on the App Store"
+              style={{ borderRadius: "13px" }}
+            />
+          </a>
+        </ProjectCard>
       </ScrollPage>
 
       <ScrollPage>

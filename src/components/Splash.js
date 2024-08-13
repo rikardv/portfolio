@@ -12,7 +12,7 @@ const Splash = () => {
           Vestergaard
         </Typography>
         <Typography variant="h6" fontWeight="500" color={"gray"}>
-          Student & part time software developer
+          Software developer
         </Typography>
       </Grid>
       <Grid item style={styles.image}>
