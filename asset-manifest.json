@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e120b957.css",
-    "main.js": "/static/js/main.bc335c3e.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Satoshi-Variable.ttf": "/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
-    "static/media/rikard.pdf": "/static/media/rikard.c4cede8c5cd4b02b04de.pdf",
-    "static/media/programmer-svgrepo-com.png": "/static/media/programmer-svgrepo-com.6188f81f1ed4d536553a.png",
-    "index.html": "/index.html",
-    "main.e120b957.css.map": "/static/css/main.e120b957.css.map",
-    "main.bc335c3e.js.map": "/static/js/main.bc335c3e.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/l/static/css/main.7bde531c.css",
+    "main.js": "/l/static/js/main.80edb0d8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/l/static/js/787.1ed0c42c.chunk.js",
+    "static/media/rikard-grad2.png": "/l/static/media/rikard-grad2.e7e6386ed481d28b6ed6.png",
+    "static/media/Satoshi-Variable.ttf": "/l/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
+    "static/media/rikard.pdf": "/l/static/media/rikard.c4cede8c5cd4b02b04de.pdf",
+    "static/media/programmer-svgrepo-com.png": "/l/static/media/programmer-svgrepo-com.6188f81f1ed4d536553a.png",
+    "index.html": "/l/index.html",
+    "main.7bde531c.css.map": "/l/static/css/main.7bde531c.css.map",
+    "main.80edb0d8.js.map": "/l/static/js/main.80edb0d8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/l/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e120b957.css",
-    "static/js/main.bc335c3e.js"
+    "static/css/main.7bde531c.css",
+    "static/js/main.80edb0d8.js"
   ]
 }
