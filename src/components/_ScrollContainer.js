@@ -61,11 +61,11 @@ const _ScrollContainer = () => {
 
       <ScrollPage>
         <ProjectCard color={MY_COLORS.gray}>
-          <Typography variant="h2" fontWeight="500">
+          <Typography variant="h3" fontWeight="500">
             Urban Explorer Sverige <FontAwesomeIcon icon={faSwift} />+
             <FontAwesomeIcon icon={faPython} />
           </Typography>
-          <Typography variant="h6" fontWeight="500">
+          <Typography variant="body1" fontWeight="500">
             Developed using SwiftUI with a Python backend
           </Typography>
           <Typography variant="body1" fontWeight="200">
@@ -99,11 +99,11 @@ const _ScrollContainer = () => {
 
       <ScrollPage>
         <ProjectCard color={MY_COLORS.blue}>
-          <Typography variant="h2" fontWeight="500">
+          <Typography variant="h3" fontWeight="500">
             Sentimenty <FontAwesomeIcon icon={faReact} />+
             <FontAwesomeIcon icon={faPython} />
           </Typography>
-          <Typography variant="h6" fontWeight="500">
+          <Typography variant="body1" fontWeight="500">
             Developed using Python and React Native
           </Typography>
           <Typography variant="body1" fontWeight="200">
@@ -141,12 +141,12 @@ const _ScrollContainer = () => {
       </ScrollPage>
       <ScrollPage>
         <ProjectCard color={MY_COLORS.pink} inverse>
-          <Typography variant="h2" fontWeight="500">
+          <Typography variant="h3" fontWeight="500">
             Doorman <FontAwesomeIcon icon={faReact} />+
             <FontAwesomeIcon icon={faJava} />+
             <FontAwesomeIcon icon={faRaspberryPi} />
           </Typography>
-          <Typography variant="h6" fontWeight="500">
+          <Typography variant="body1" fontWeight="500">
             Developed using React Native, Java and Raspberry Pi
           </Typography>
           <Typography variant="body1" fontWeight="200">
@@ -159,13 +159,6 @@ const _ScrollContainer = () => {
             they're on when you're home and off when you're away.
             <br></br>Key Features: <br></br>
             <ul>
-              <li>
-                React Native Frontend: A user-friendly mobile interface for
-                seamless control.
-              </li>
-              <li>
-                Java Backend: Efficiently manages the logic and communication.
-              </li>
               <li>
                 GPS-Based Lighting Control: Lights adapt to your presence,
                 maximizing energy efficiency.
@@ -197,10 +190,10 @@ const _ScrollContainer = () => {
       </ScrollPage>
       <ScrollPage>
         <ProjectCard color={MY_COLORS.yellow}>
-          <Typography variant="h2" fontWeight="500">
+          <Typography variant="h3" fontWeight="500">
             Montecarlo ray tracer <FontAwesomeIcon icon={faJava} />
           </Typography>
-          <Typography variant="h6" fontWeight="500">
+          <Typography variant="body1" fontWeight="500">
             Developed using Java
           </Typography>
           <Typography variant="body1" fontWeight="200">
@@ -209,10 +202,6 @@ const _ScrollContainer = () => {
             rendering stunning and realistic images.
             <br></br>Key Features: <br></br>
             <ul>
-              <li>
-                Monte Carlo Rendering: A sophisticated technique for accurate
-                and efficient light simulation.
-              </li>
               <li>
                 Java Implementation: Crafted entirely in Java for platform
                 independence.

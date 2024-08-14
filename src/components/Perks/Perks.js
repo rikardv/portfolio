@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Divider } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import PerkCard from "./PerkCard";
 import { useEffect } from "react";
 import gsap from "gsap";
@@ -36,6 +36,7 @@ const perksArray = [
     text: "I focus on understanding your target audience to design intuitive and engaging user interfaces. Once we finalize the design with stakeholders, I bring it to life using modern front-end technologies to enhance user experience.",
   },
 ];
+
 const Perks = () => {
   useEffect(() => {
     MainTitleAnimation(".h1", ".h2");
@@ -46,54 +47,59 @@ const Perks = () => {
       maxWidth="lg"
       sx={{
         display: "flex",
-        height: "100vh",
+        minHeight: "100vh",
         alignItems: "center",
         justifyContent: "center",
+        px: { xs: 1, sm: 2 }, // Smaller padding for mobile
       }}
     >
       <Box sx={centeredStyles}>
-        <Typography
-          className="h1 t25o0"
-          variant="h1"
-          sx={{
-            fontSize: {
-              xs: "2.2em",
-              sm: "2.5em",
-              md: "3em",
-            },
-          }}
-          fontWeight="600"
-        >
-          Reliable Solutions for Your Needs
-        </Typography>
-        <Typography
-          variant="h2"
-          className="secondary h2"
-          sx={{
-            pt: "1.5em",
-            transform: "translateY(15px)",
-            opacity: 0,
-            maxWidth: "570px",
-            fontSize: {
-              xs: ".8em",
-              sm: "1em",
-            },
-          }}
-        >
-          My goal is to provide straightforward solutions that address your
-          specific requirements.
-        </Typography>
+        <Box sx={{ display: { xs: "none", sm: "block" } }}>
+          <Typography
+            className="h1 t25o0"
+            variant="h1"
+            sx={{
+              fontSize: {
+                xs: "1.8em", // Smaller font size for mobile
+                sm: "2.2em",
+                md: "2.5em",
+              },
+            }}
+            fontWeight="600"
+          >
+            Reliable Solutions for Your Needs
+          </Typography>
+          <Typography
+            variant="h2"
+            className="secondary h2"
+            sx={{
+              pt: "1em",
+              transform: "translateY(15px)",
+              opacity: 0,
+              maxWidth: "90%", // Adjusted for better fit on mobile
+              fontSize: {
+                xs: "0.7em", // Smaller font size for mobile
+                sm: "0.9em",
+              },
+            }}
+          >
+            My goal is to provide straightforward solutions that address your
+            specific requirements.
+          </Typography>
+        </Box>
 
         <Box
           sx={{
-            mt: "3em",
+            mt: "2em", // Reduced margin for mobile
             display: "flex",
             flexWrap: "wrap",
-            gap: "5%",
+            gap: "3%", // Reduced gap for mobile
             justifyContent: {
               xs: "center",
               sm: "space-between",
             },
+            width: "100%", // Full width for the container
+            maxWidth: "1000px", // Limit the maximum width further
           }}
         >
           {perksArray.map((perk) => {
@@ -103,6 +109,14 @@ const Perks = () => {
                 title={perk.title}
                 text={perk.text}
                 Icon={perk.Icon}
+                sx={{
+                  width: {
+                    xs: "100%", // Full width on mobile
+                    sm: "48%", // Half width on small screens
+                    md: "30%", // 30% width on medium and larger screens
+                  },
+                  mb: { xs: 2, sm: 0 }, // Margin adjustment for mobile
+                }}
               />
             );
           })}

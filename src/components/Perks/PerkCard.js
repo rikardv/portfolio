@@ -48,7 +48,7 @@ const PerkCard = ({ text, title, Icon }) => {
             pt: ".5em",
           }}
           fontWeight="400"
-          fontSize="1.5em"
+          fontSize="1.2em"
         >
           {title}
         </Typography>
