@@ -32,7 +32,6 @@ import { MY_COLORS } from "../appleColors";
 import ContentContainer from "./ContentContainer";
 import ProjectCard from "./ProjectCard";
 import Splash from "./Splash";
-import Pdf from "../docs/rikard.pdf";
 import Hero from "./Hero";
 import Perks from "./Perks/Perks";
 
@@ -59,7 +58,7 @@ const _ScrollContainer = () => {
         <Perks />
       </ScrollPage>
 
-      <ScrollPage>
+      {/* <ScrollPage>
         <ProjectCard color={MY_COLORS.gray}>
           <Typography variant="h3" fontWeight="500">
             Urban Explorer Sverige <FontAwesomeIcon icon={faSwift} />+
@@ -76,7 +75,7 @@ const _ScrollContainer = () => {
             The Python backend ensures smooth data processing and finds new
             spots with AI.
           </Typography>
-          {/* Download in App Store image here */}
+
 
           <a
             href="https://apps.apple.com/se/app/urban-explorer-sverige/id6547833109?itsct=apps_box_badge&amp;itscg=30200"
@@ -95,9 +94,9 @@ const _ScrollContainer = () => {
             />
           </a>
         </ProjectCard>
-      </ScrollPage>
+      </ScrollPage> */}
 
-      <ScrollPage>
+      {/* <ScrollPage>
         <ProjectCard color={MY_COLORS.blue}>
           <Typography variant="h3" fontWeight="500">
             Sentimenty <FontAwesomeIcon icon={faReact} />+
@@ -138,8 +137,8 @@ const _ScrollContainer = () => {
             Link to project
           </Typography>
         </ProjectCard>
-      </ScrollPage>
-      <ScrollPage>
+      </ScrollPage> */}
+      {/* <ScrollPage>
         <ProjectCard color={MY_COLORS.pink} inverse>
           <Typography variant="h3" fontWeight="500">
             Doorman <FontAwesomeIcon icon={faReact} />+
@@ -187,8 +186,8 @@ const _ScrollContainer = () => {
             Link to project
           </Typography>
         </ProjectCard>
-      </ScrollPage>
-      <ScrollPage>
+      </ScrollPage> */}
+      {/* <ScrollPage>
         <ProjectCard color={MY_COLORS.yellow}>
           <Typography variant="h3" fontWeight="500">
             Montecarlo ray tracer <FontAwesomeIcon icon={faJava} />
@@ -230,7 +229,7 @@ const _ScrollContainer = () => {
             Link to project
           </Typography>
         </ProjectCard>
-      </ScrollPage>
+      </ScrollPage> */}
       <ScrollPage>
         <Animator animation={batch(Fade(), Sticky())}>
           <Typography variant="h3">Connect with me</Typography>
@@ -259,7 +258,7 @@ const _ScrollContainer = () => {
             >
               GitHub
             </Typography>
-            <Typography
+            {/* <Typography
               variant="overline"
               fontWeight="500"
               component="a"
@@ -268,7 +267,7 @@ const _ScrollContainer = () => {
               sx={{ pointerEvents: "visible", color: "inherit" }}
             >
               Download resume
-            </Typography>
+            </Typography> */}
           </Stack>
           <Typography variant="subtitle1">© 2023 Rikard Vestergaard</Typography>
         </Animator>

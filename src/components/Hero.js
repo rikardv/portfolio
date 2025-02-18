@@ -4,7 +4,6 @@ import { useRef, useEffect } from "react";
 import ScrollToPlugin from "gsap/dist/ScrollToPlugin";
 import HeroSectionAnimation from "../gsap/HeroSectionAnimation";
 import rikardImage from "../images/rikard-grad2.png";
-import Pdf from "../docs/rikard.pdf";
 import Perks from "./Perks/Perks";
 
 export const btnStyles = {
@@ -113,7 +112,7 @@ const Hero = () => {
               justifyContent: { xs: "center", md: "flex-start" }, // Center buttons on mobile
             }}
           >
-            <Typography
+            {/* <Typography
               variant="overline"
               fontWeight="500"
               component="a"
@@ -122,7 +121,7 @@ const Hero = () => {
               sx={{ pointerEvents: "visible", color: "inherit" }}
             >
               Download resume
-            </Typography>
+            </Typography> */}
           </Box>
         </Box>
 
